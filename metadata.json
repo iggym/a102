@@ -1,0 +1,5 @@
+{
+  "name": "US Cities World Clock",
+  "description": "A visually appealing web application that displays the current time for a list of major cities across the United States in real-time.",
+  "requestFramePermissions": []
+}
