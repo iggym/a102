@@ -1,4 +1,3 @@
-
 export const CITIES = [
   { name: 'New York', timezone: 'America/New_York' },
   { name: 'Chicago', timezone: 'America/Chicago' },

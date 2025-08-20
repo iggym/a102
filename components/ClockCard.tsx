@@ -1,12 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import type { City } from '../types';
 
-interface ClockCardProps {
-  city: City;
-}
-
-const ClockCard: React.FC<ClockCardProps> = ({ city }) => {
+const ClockCard = ({ city }) => {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {

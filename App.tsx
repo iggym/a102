@@ -3,7 +3,7 @@ import React from 'react';
 import { CITIES } from './constants';
 import ClockCard from './components/ClockCard';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="bg-slate-900 min-h-screen text-white font-sans">
       <header className="py-8 md:py-12 text-center">
