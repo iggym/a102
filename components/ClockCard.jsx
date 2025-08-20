@@ -36,7 +36,7 @@ const ClockCard = ({ city }) => {
       timeZoneName: 'short',
   }).formatToParts(time).find(part => part.type === 'timeZoneName')?.value;
 
-  return React.createElement('div', { className: "bg-slate-800/50 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-slate-700 transform hover:scale-105 transition-transform duration-300 ease-in-out" },
+  return React.createElement('div', { className: "bg-slate-800/50 backdrop-blur-sm p-6 rounded-2xl shadow-lg border-4 border-cyan-600/50 hover:border-cyan-500 transform hover:scale-105 transition-all duration-300 ease-in-out" },
     React.createElement('div', { className: "flex justify-between items-start mb-4" },
       React.createElement('div', null,
         React.createElement('h2', { className: "text-2xl font-bold text-white" }, city.name),
